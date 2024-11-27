@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .search-container input {
+            width: 300px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .search-container button {
+            padding: 10px 15px;
+            font-size: 1rem;
+            background-color: #42a5f5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .search-container button:hover {
+            background-color: #2196f3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Search Bar Example</h1>
+        <p>Use the search bar below to search for content on this page.</p>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search..." onkeyup="searchFunction()">
+        <button onclick="searchFunction()">Search</button>
+    </div>
+
+    <div id="content">
+        <section>
+            <h2>What is Artificial Intelligence?</h2>
+            <p>Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.</p>
+        </section>
+
+        <section>
+            <h2>What is Machine Learning?</h2>
+            <p>Machine Learning (ML) is a subset of AI that involves training a machine to learn from data. The machine uses algorithms to find patterns in the data.</p>
+        </section>
+
+        <section>
+            <h2>Applications of AI</h2>
+            <p>AI is used in various fields including healthcare, finance, autonomous vehicles, and more.</p>
+        </section>
+    </div>
+
+    .search-container button:hover {
+        background-color: #2196f3;
+    }
+
+</body>
+</html>

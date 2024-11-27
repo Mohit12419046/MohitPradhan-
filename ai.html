@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Artificial Intelligence & Machine Learning</title>
+   
+    <style>
+        /* Global Reset and Font Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f5f5, #e6e6e6);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for consistent width */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #ff7f50, #ff6347);
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color: #f5f5f5;
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Benefits Section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffeb3b;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #ff9800;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta-button a {
+    background-color: #42a5f5;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button a:hover {
+    background-color: #2196f3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 15px;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+        }
+        .search-container input {
+            width: 1500px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 2px solid #b75555;
+            border-radius: 5px;
+            outline: none;
+}
+.search-container button {
+            padding: 10px 15px;
+            font-size: 1rem;
+            background-color: #42a5f5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Discover Artificial Intelligence & Machine Learning</h1>
+            <nav>
+                <ul>
+                    <li><a href="#ai">What is AI?</a></li>
+                    <li><a href="#ml">What is ML?</a></li>
+                    <li><a href="#applications">Applications</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#future">Future</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="ai">
+        <div class="container">
+            <h2>What is Artificial Intelligence?</h2>
+            <p>Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The goal is to enable machines to perform tasks that would normally require human intelligence, such as problem-solving, decision-making, language understanding, and vision recognition.</p>
+        </div>
+    </section>
+
+    <section id="ml">
+        <div class="container">
+            <h2>What is Machine Learning?</h2>
+            <p>Machine Learning (ML) is a subset of AI that involves training a machine to learn from data. The machine uses algorithms to find patterns in the data, and over time, it can improve its performance without being explicitly programmed. ML is used in applications like predictive analytics, natural language processing, and image recognition.</p>
+        </div>
+    </section>
+
+    <section id="applications">
+        <div class="container">
+            <h2>Applications of AI & ML</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Healthcare</h3>
+                    <p>AI and ML are used for diagnostics, personalized medicine, and drug discovery.</p>
+                </div>
+                <div class="card">
+                    <h3>Finance</h3>
+                    <p>AI algorithms help in fraud detection, algorithmic trading, and credit scoring.</p>
+                </div>
+                <div class="card">
+                    <h3>Autonomous Vehicles</h3>
+                    <p>Self-driving cars use AI and ML to navigate and make decisions on the road.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <div class="container">
+            <h2>Benefits of AI & ML</h2>
+            <ul>
+                <li><strong>Improved Efficiency:</strong> Automating repetitive tasks and processes increases productivity.</li>
+                <li><strong>Data-Driven Decisions:</strong> AI provides insights into data that humans might miss.</li>
+                <li><strong>Innovation:</strong> AI opens doors to creative solutions across all industries.</li>
+                <li><strong>Personalization:</strong> AI helps tailor user experiences based on data-driven insights.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="future">
+        <div class="container">
+            <h2>The Future of AI & ML</h2>
+            <p>The future of AI and ML holds immense potential in transforming our world. With advancements in deep learning, neural networks, and AI ethics, the landscape is rapidly evolving.</p>
+            <div class="cta-button">
+                <a href="https://www.example.com" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search..." onkeyup="searchFunction()">
+            <button onclick="searchFunction()">Search</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AI & ML Webpage. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
